@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 6af3081ded7b17d4cb196cadf5696cd5
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Icy Layers_0
+    21300002: Icy Layers_1
+    21300004: Icy Layers_2
+    21300006: Icy Layers_3
+    21300008: Icy Layers_4
+    21300010: Icy Layers_5
+    21300012: Icy-2
+    21300014: Icy-3
+    21300016: Icy Layers_8
+    21300018: Icy Layers_9
+    21300020: Icy+3
+    21300022: Icy +2
+    21300024: Icy-1
+    21300026: Icy+1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Icy Layers_0
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 519
+        width: 164
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Icy Layers_1
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 559
+        width: 128
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Icy Layers_2
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 555
+        width: 160
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Icy Layers_3
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 460
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Icy Layers_4
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 464
+        width: 88
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Icy Layers_5
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 416
+        width: 88
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Icy-2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 278
+        width: 129
+        height: 138
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Icy-3
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 276
+        width: 50
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Icy Layers_8
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 332
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Icy Layers_9
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 360
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Icy+3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 104
+        width: 53
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Icy +2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 92
+        width: 257
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Icy-1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 278
+        width: 29
+        height: 139
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Icy+1
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 92
+        width: 102
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

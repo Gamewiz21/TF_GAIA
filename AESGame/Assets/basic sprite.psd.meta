@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: 941a6fb0fc4cad742b239d44d1f8d2ff
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: basic sprite_0
+    21300002: basic sprite_1
+    21300004: basic sprite_2
+    21300006: basic sprite_3
+    21300008: sword 1
+    21300010: left4
+    21300012: left3
+    21300014: h left 2l
+    21300016: h left 1r
+    21300018: sword 3
+    21300020: sword 4
+    21300022: right1
+    21300024: right2
+    21300026: right3
+    21300028: right4
+    21300030: basic sprite_15
+    21300032: basic sprite_16
+    21300034: basic sprite_17
+    21300036: basic sprite_18
+    21300038: sword 2
+    21300040: sword_5
+    21300042: topsword_21
+    21300044: sword_22
+    21300046: sword_23
+    21300048: bottoms_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 15
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: basic sprite_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 146
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: basic sprite_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 146
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: basic sprite_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 146
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: basic sprite_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 146
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sword 1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 147
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: left4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 98
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: left3
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 98
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h left 2l
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 98
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h left 1r
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 98
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sword 3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 123
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sword 4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 110
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: right1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 50
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: right2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 50
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: right3
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 50
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: right4
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 50
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: basic sprite_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: basic sprite_16
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: basic sprite_17
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 2
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: basic sprite_18
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sword 2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 137
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sword_5
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 90
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: topsword_21
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 138
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sword_22
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 95
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sword_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 77
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bottoms_24
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 54
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

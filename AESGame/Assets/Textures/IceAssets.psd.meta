@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: 47b707fc9fe8bd74c865f86a93ff320b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FallingSpike
+    21300002: IceSpike_1
+    21300004: IceSpike_2
+    21300006: IceSlopeDown
+    21300008: IceAssets_4
+    21300010: IceAssets_5
+    21300012: IceSlopeup
+    21300014: IceAssets_7
+    21300016: IceAssets_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FallingSpike
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 385
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceSpike_1
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 435
+        width: 66
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceSpike_2
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 441
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceSlopeDown
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 382
+        width: 143
+        height: 132
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceAssets_4
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 254
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceAssets_5
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 115
+        width: 66
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceSlopeup
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 299
+        width: 132
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceAssets_7
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 111
+        width: 257
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceAssets_8
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 21
+        width: 80
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

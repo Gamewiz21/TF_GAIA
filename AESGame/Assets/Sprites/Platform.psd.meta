@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: ef65951bfda713e43a072aee4839130e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bridge
+    21300002: flower
+    21300004: bush
+    21300006: shroom
+    21300008: Bridge
+    21300010: Platform_5
+    21300012: grass
+    21300014: Tree_2
+    21300016: Platform_8
+    21300018: Lplat_2
+    21300020: Platform_1
+    21300022: Lplat_2
+    21300024: Platform_2
+    21300026: Tree_1
+    21300028: mushroom
+    21300030: Streight
+    21300032: Big
+    21300034: Big_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 15
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bridge
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 415
+        width: 252
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flower
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 393
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bush
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 425
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shroom
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 393
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bridge
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 212
+        width: 252
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Platform_5
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 236
+        width: 202
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grass
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 266
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 50
+        width: 98
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Platform_8
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 59
+        width: 202
+        height: 136
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Lplat_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 237
+        width: 43
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Platform_1
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 234
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Lplat_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 57
+        width: 46
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Platform_2
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 56
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_1
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 425
+        width: 74
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mushroom
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 392
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Streight
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 332
+        width: 209
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Big
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 271
+        width: 124
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Big_2
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 93
+        width: 122
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

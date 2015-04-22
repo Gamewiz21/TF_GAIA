@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyScripts\Fireballshoot.cs">
+    <Files>
+      <File FileName="Assets\MyScripts\ButtonPower.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyScripts\SlashAttack.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyScripts\HealthBar.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyScripts\HealthUp.cs" Line="25" Column="60" />
+      <File FileName="Assets\MyScripts\Fireballshoot.cs" Line="22" Column="62" />
+      <File FileName="Assets\EnemyScripts\EnemyHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyScripts\UIManager.cs" Line="85" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
