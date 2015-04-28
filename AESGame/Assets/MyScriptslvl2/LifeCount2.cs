@@ -23,7 +23,7 @@ public class LifeCount2 : MonoBehaviour {
 		
 		if (Lives == 0)// if the player has no lives left
 		{
-			Application.LoadLevel(2);// the level ends
+			Application.LoadLevel("GameOver");// the level ends
 		}
 		
 	}

@@ -79,7 +79,7 @@ public class UIManager : MonoBehaviour {
         //buttons
         if (GUILayout.Button("Play Game"))
         {
-            Application.LoadLevel("Test Level");
+            Application.LoadLevel(1);
         }
 
         if(GUILayout.Button("Options"))

@@ -1,14 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyScripts\Fireballshoot.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyScriptslvl2\Gameoverwait.cs">
     <Files>
-      <File FileName="Assets\MyScripts\ButtonPower.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyScripts\SlashAttack.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyScripts\HealthBar.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyScripts\HealthUp.cs" Line="25" Column="60" />
-      <File FileName="Assets\MyScripts\Fireballshoot.cs" Line="22" Column="62" />
-      <File FileName="Assets\EnemyScripts\EnemyHealth.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyScripts\UIManager.cs" Line="85" Column="32" />
+      <File FileName="Assets\MyScripts\UIManager.cs" Line="82" Column="36" />
+      <File FileName="Assets\MyScriptslvl2\Gameoverwait.cs" Line="11" Column="5" />
+      <File FileName="Assets\MyScripts\LifeCount.cs" Line="26" Column="35" />
+      <File FileName="Assets\MyScriptslvl2\LifeCount2.cs" Line="26" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
