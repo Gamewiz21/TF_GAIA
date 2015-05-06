@@ -44,6 +44,7 @@ public class EnemyHealth : EnemyLifeManager {
         if (other.gameObject.tag == "Spell")
         {	//the target is In Range
             enemyhealth -= 10;
+            Destroy(other.gameObject);
         }
 	}
 	void OnTriggerExit2D (Collider2D other)

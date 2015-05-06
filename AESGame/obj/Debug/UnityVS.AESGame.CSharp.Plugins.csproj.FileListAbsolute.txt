@@ -1,0 +1,9 @@
+C:\Users\terrance.franklin\Desktop\GitHub2\TF_GAIA\TF_GAIA\AESGame\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\terrance.franklin\Desktop\GitHub2\TF_GAIA\TF_GAIA\AESGame\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\terrance.franklin\Desktop\GitHub2\TF_GAIA\TF_GAIA\AESGame\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\terrance.franklin\Desktop\GitHub2\TF_GAIA\TF_GAIA\AESGame\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\terrance.franklin\Desktop\GitHub2\TF_GAIA\TF_GAIA\AESGame\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\terrance.franklin\Desktop\GitHub2\TF_GAIA\TF_GAIA\AESGame\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\terrance.franklin\Desktop\GitHub2\TF_GAIA\TF_GAIA\AESGame\obj\Debug\UnityVS.AESGame.CSharp.Plugins.csprojResolveAssemblyReference.cache
+C:\Users\terrance.franklin\Desktop\GitHub2\TF_GAIA\TF_GAIA\AESGame\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\terrance.franklin\Desktop\GitHub2\TF_GAIA\TF_GAIA\AESGame\obj\Debug\Assembly-CSharp-firstpass.pdb
