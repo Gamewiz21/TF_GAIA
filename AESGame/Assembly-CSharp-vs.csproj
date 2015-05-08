@@ -79,6 +79,7 @@
      <Compile Include="Assets\MyScripts\StartRespond.cs" />
      <Compile Include="Assets\MyScripts\SwordHitBox.cs" />
      <Compile Include="Assets\MyScripts\UIManager.cs" />
+     <Compile Include="Assets\MyScripts\manaUP.cs" />
      <Compile Include="Assets\MyScriptslvl2\BGoal.cs" />
      <Compile Include="Assets\MyScriptslvl2\Control.cs" />
      <Compile Include="Assets\MyScriptslvl2\Finish.cs" />
@@ -169,7 +170,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/terrance.franklin/Desktop/GitHub2/TF_GAIA/TF_GAIA/AESGame/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/terrance.franklin/Desktop/repo2/TF_GAIA/AESGame/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

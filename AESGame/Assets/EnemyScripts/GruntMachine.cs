@@ -3,7 +3,7 @@ using System.Collections;
 
 public class GruntMachine : MonoBehaviour
 {
-    
+    private PlatformerCharacter2D Turn;
     bool facingRight = true;
     public float SafeDistance = 6f;
     public float dangerZone = 5f;
@@ -70,7 +70,7 @@ public class GruntMachine : MonoBehaviour
 
         // Move the character **
         rigidbody2D.velocity = new Vector2(move * ChaseSpeed, rigidbody2D.velocity.y);
-
+        Turn = GameObject.Find("2D Character").GetComponent<PlatformerCharacter2D>();
     }
 
     void Hit()
@@ -79,7 +79,7 @@ public class GruntMachine : MonoBehaviour
         Vector2 PatrolPos = new Vector2(player.transform.position.x, this.transform.position.y);
         transform.position = Vector2.MoveTowards(transform.position, PatrolPos, Attack);
         anim.Play("Assalt");
-        
+       /* 
         MoveRight = true;
         MoveLeft = false;
         //**
@@ -90,7 +90,20 @@ public class GruntMachine : MonoBehaviour
         //else if (facingRight)
             // ... flip the player.
           // Flip();
-       
+       */
+        if (Turn.facingRight == false)
+        {
+            MoveRight = true;
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+            MoveLeft = false;
+        }
+
+        if (Turn.facingRight == true)
+        {
+            MoveLeft = true;
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+            MoveRight = false;
+        }
 
     }
 

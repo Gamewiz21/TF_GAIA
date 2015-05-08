@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyStateMachine : MonoBehaviour {
-
+public class EnemyStateMachine : MonoBehaviour
+{
+    private PlatformerCharacter2D Turn;
     public float SafeDistance = 6f;
     public float dangerZone = 5f;
     public GameObject player;
@@ -62,8 +63,10 @@ public class EnemyStateMachine : MonoBehaviour {
 				Hit();
                 break;
         }
+
 		//B = GameObject.FindGameObjectWithTag ("Player").GetComponent<HealthBar> ();
-	
+        Turn = GameObject.Find("2D Character").GetComponent<PlatformerCharacter2D>();
+        
 	}
 
     void Hit()
@@ -71,10 +74,31 @@ public class EnemyStateMachine : MonoBehaviour {
 		float Attack = ChaseSpeed * Time.deltaTime;
 		Vector2 PatrolPos = new Vector2 (player.transform.position.x, this.transform.position.y);
 		transform.position = Vector2.MoveTowards(transform.position, PatrolPos,Attack);
-
-
+        //transform.rotation = Quaternion.Euler(0, 180, 0);
+        /*
+       if(Turn.facingRight) 
 		MoveRight = true;
 		MoveLeft = false;
+
+        if (Turn.facingRight == false)
+        {
+            MoveRight = false;
+            MoveLeft = true;
+        }
+        */
+        if (Turn.facingRight == false)
+        {
+            MoveRight = true;
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+            MoveLeft = false;
+        }
+
+        if (Turn.facingRight == true)
+        {
+            MoveLeft = true;
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+            MoveRight = false;
+        }
 
     }
 
@@ -83,8 +107,16 @@ public class EnemyStateMachine : MonoBehaviour {
          float patroling = Speed * Time.deltaTime;
 		Vector2 PatrolPos = new Vector2 (target.transform.position.x, this.transform.position.y);
          transform.position = Vector2.MoveTowards(transform.position, PatrolPos, patroling);
-         MoveRight = true;
-         MoveLeft = false;
+         //transform.rotation = Quaternion.Euler(0, -180, 0);
+        
        
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.transform.tag == "Target")
+        {
+           
+        }
     }
 }
