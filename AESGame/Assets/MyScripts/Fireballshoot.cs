@@ -42,7 +42,7 @@ public class Fireballshoot : MonoBehaviour
 
              if (FireAmmo <= 0)
                  {
-                     Nothing(); 
+                     Nothing(); // don't Instantiate, do nothing when p is pressed
                  }
         }
 
@@ -51,7 +51,7 @@ public class Fireballshoot : MonoBehaviour
 
     void OnGUI()
     {
-        GUI.Label(new Rect ( 10, 50, 500, 500), "Mana:" + FireAmmo, HUD);
+        GUI.Label(new Rect ( 10, 50, 500, 500), "Mana:" + FireAmmo, HUD);// show mana value as GUI text
     }
 
     

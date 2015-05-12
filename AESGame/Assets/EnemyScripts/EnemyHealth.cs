@@ -43,7 +43,7 @@ public class EnemyHealth : EnemyLifeManager {
 		}
         if (other.gameObject.tag == "Spell")
         {	//the target is In Range
-            enemyhealth -= 10;
+            enemyhealth -= 20;
             Destroy(other.gameObject);
         }
 	}

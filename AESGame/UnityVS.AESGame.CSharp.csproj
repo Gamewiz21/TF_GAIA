@@ -83,6 +83,7 @@
     <Compile Include="Assets\MyScripts\HealthUp.cs" />
     <Compile Include="Assets\MyScripts\JumpSFX.cs" />
     <Compile Include="Assets\MyScripts\LifeCount.cs" />
+    <Compile Include="Assets\MyScripts\Pause.cs" />
     <Compile Include="Assets\MyScripts\SlashAttack.cs" />
     <Compile Include="Assets\MyScripts\Slashsound.cs" />
     <Compile Include="Assets\MyScripts\Spikes.cs" />

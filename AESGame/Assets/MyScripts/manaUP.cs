@@ -14,7 +14,7 @@ public class manaUP : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        Plus = GameObject.Find("Hand").GetComponent<Fireballshoot>();
+        Plus = GameObject.Find("Hand").GetComponent<Fireballshoot>();// get component from fireball shoot script
 
     }
 

@@ -74,29 +74,18 @@ public class EnemyStateMachine : MonoBehaviour
 		float Attack = ChaseSpeed * Time.deltaTime;
 		Vector2 PatrolPos = new Vector2 (player.transform.position.x, this.transform.position.y);
 		transform.position = Vector2.MoveTowards(transform.position, PatrolPos,Attack);
-        //transform.rotation = Quaternion.Euler(0, 180, 0);
-        /*
-       if(Turn.facingRight) 
-		MoveRight = true;
-		MoveLeft = false;
-
-        if (Turn.facingRight == false)
-        {
-            MoveRight = false;
-            MoveLeft = true;
-        }
-        */
-        if (Turn.facingRight == false)
+       
+        if (Turn.facingRight == false)// if player isn't facing right
         {
             MoveRight = true;
-            transform.rotation = Quaternion.Euler(0, 180, 0);
+            transform.rotation = Quaternion.Euler(0, 180, 0);// rotate 180 degrees left
             MoveLeft = false;
         }
 
-        if (Turn.facingRight == true)
+        if (Turn.facingRight == true)// if player is facing rightn
         {
             MoveLeft = true;
-            transform.rotation = Quaternion.Euler(0, 0, 0);
+            transform.rotation = Quaternion.Euler(0, 0, 0);// maintain 
             MoveRight = false;
         }
 
@@ -104,9 +93,9 @@ public class EnemyStateMachine : MonoBehaviour
 
     void Patrol()
     {
-         float patroling = Speed * Time.deltaTime;
-		Vector2 PatrolPos = new Vector2 (target.transform.position.x, this.transform.position.y);
-         transform.position = Vector2.MoveTowards(transform.position, PatrolPos, patroling);
+         float patroling = Speed * Time.deltaTime;// patroling speed
+		Vector2 PatrolPos = new Vector2 (target.transform.position.x, this.transform.position.y);// PatrolPos is the distance between target and enemy
+         transform.position = Vector2.MoveTowards(transform.position, PatrolPos, patroling);// move toward the object based on the speed value of Patrol Pos
          //transform.rotation = Quaternion.Euler(0, -180, 0);
         
        

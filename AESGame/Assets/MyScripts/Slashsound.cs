@@ -17,6 +17,7 @@ public class Slashsound : MonoBehaviour {
 			if(!Hit.isPlaying)//if not already playing
 				Hit.Play ();// play Clip
 		}
+        
 		
 	}
 }

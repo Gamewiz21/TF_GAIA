@@ -30,7 +30,7 @@ public class GruntMachine : MonoBehaviour
     void Start()
     {
         
-        anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();// get component from animator
     }
 
     void CheckStatus()
@@ -79,29 +79,18 @@ public class GruntMachine : MonoBehaviour
         Vector2 PatrolPos = new Vector2(player.transform.position.x, this.transform.position.y);
         transform.position = Vector2.MoveTowards(transform.position, PatrolPos, Attack);
         anim.Play("Assalt");
-       /* 
-        MoveRight = true;
-        MoveLeft = false;
-        //**
-        if (!facingRight)
-            // ... flip the player.
-            Flip();
-        // Otherwise if the input is moving the player left and the player is facing right...
-        //else if (facingRight)
-            // ... flip the player.
-          // Flip();
-       */
-        if (Turn.facingRight == false)
+
+        if (Turn.facingRight == false)// if player isn't facing right
         {
             MoveRight = true;
-            transform.rotation = Quaternion.Euler(0, 0, 0);
+            transform.rotation = Quaternion.Euler(0, 0, 0);// rotate 180 degrees left
             MoveLeft = false;
         }
 
-        if (Turn.facingRight == true)
+        if (Turn.facingRight == true)// if player is facing right
         {
             MoveLeft = true;
-            transform.rotation = Quaternion.Euler(0, 180, 0);
+            transform.rotation = Quaternion.Euler(0, 180, 0);// maintain position
             MoveRight = false;
         }
 
