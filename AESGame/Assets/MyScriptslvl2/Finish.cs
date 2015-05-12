@@ -3,14 +3,14 @@ using System.Collections;
 
 public class Finish : MonoBehaviour {
 
-	public Texture2D Background;
-	
-	public float delay = 3f;
+    public Texture2D Background;// Background texture
+
+    public float delay = 3f;// delay time
 	
 	// Use this for initialization
 	IEnumerator Start () {
-		yield return new WaitForSeconds (delay);
-		Application.LoadLevel ("End");
+        yield return new WaitForSeconds(delay);// hold frame based on the number of seconds on delay
+        Application.LoadLevel("End");// go to scene afterward
 		
 	}
 	

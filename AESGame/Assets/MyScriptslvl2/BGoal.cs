@@ -14,9 +14,9 @@ public class BGoal : MonoBehaviour {
 	}
 	void OnTriggerEnter2D (Collider2D other)
 	{	// if player enters collider the 
-		if (other.gameObject.tag == "Player")
+		if (other.gameObject.tag == "Player")// when player touches collider
 		{
-			Application.LoadLevel("result2");
+			Application.LoadLevel("result2");// go to scene
 			
 		}
 	}

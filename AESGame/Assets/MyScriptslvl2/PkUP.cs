@@ -20,9 +20,9 @@ public class PkUP : MonoBehaviour {
 	
 	void Update()
 	{
-		if (Input.GetKey (KeyCode.RightArrow))
+		if (Input.GetKey (KeyCode.D))// when D is pressed
 		{
-			Application.LoadLevel("Stage1");
+			Application.LoadLevel("Stage1");// go to this scene
 		}
 	}
 }

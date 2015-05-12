@@ -95,6 +95,7 @@ public class UIManager : MonoBehaviour {
         if (GUILayout.Button("Quit Game"))
         {
             Application.Quit();
+            
         }
     }
     private void optionsFunc(int id)

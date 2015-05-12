@@ -2,8 +2,8 @@
 using System.Collections;
 
 public class Control : MonoBehaviour {
-	public GUISkin MyGUISkin;
-	public Texture2D Background;
+	public GUISkin MyGUISkin;// GUI SKin
+	public Texture2D Background;// Background texu
 
 
 	
@@ -12,16 +12,16 @@ public class Control : MonoBehaviour {
 		// if Background is not null, meaning nothing there show this, JUST CHECKING
 		if (Background != null)
 		{
-			GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), Background);
+			GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), Background);// show texture
 		}
 	
 	}
 
 	void Update()
 	{
-		if (Input.GetKey (KeyCode.RightArrow))
+		if (Input.GetKey (KeyCode.D))// when D is pressed
 		{
-			Application.LoadLevel("PickUps");
+			Application.LoadLevel("PickUps");// go to this scene
 		}
 	}
 }

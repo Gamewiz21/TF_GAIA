@@ -11,6 +11,8 @@ TextureImporter:
     21300012: IceSlopeup
     21300014: IceAssets_7
     21300016: IceAssets_8
+    21300018: piece2
+    21300020: piece1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -100,7 +102,7 @@ TextureImporter:
         width: 35
         height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: IceAssets_5
       rect:
@@ -110,7 +112,7 @@ TextureImporter:
         width: 66
         height: 225
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: IceSlopeup
       rect:
@@ -130,7 +132,7 @@ TextureImporter:
         width: 257
         height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: IceAssets_8
       rect:
@@ -140,7 +142,27 @@ TextureImporter:
         width: 80
         height: 248
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: piece2
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 308
+        width: 37
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: piece1
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 415
+        width: 52
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

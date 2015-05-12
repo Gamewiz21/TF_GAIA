@@ -90,6 +90,7 @@
     <Compile Include="Assets\MyScripts\StartEvent.cs" />
     <Compile Include="Assets\MyScripts\StartRespond.cs" />
     <Compile Include="Assets\MyScripts\SwordHitBox.cs" />
+    <Compile Include="Assets\MyScripts\TryAgain.cs" />
     <Compile Include="Assets\MyScripts\UIManager.cs" />
     <Compile Include="Assets\MyScripts\manaUP.cs" />
     <Compile Include="Assets\MyScriptslvl2\BGoal.cs" />

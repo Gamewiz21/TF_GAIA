@@ -3,15 +3,15 @@ using System.Collections;
 
 public class InvokeLevel1 : MonoBehaviour {
 
-	public Texture2D Background;
+	public Texture2D Background;// Background texture
 	
 	
-	public float delay = 3f;
+	public float delay = 3f;// delay time
 	
 	// Use this for initialization
 	IEnumerator Start () {
-		yield return new WaitForSeconds (delay);
-		Application.LoadLevel (4);
+		yield return new WaitForSeconds (delay);// hold frame based on the number of seconds on delay
+		Application.LoadLevel (4);// go to scene afterward
 		
 	}
 	
@@ -20,7 +20,7 @@ public class InvokeLevel1 : MonoBehaviour {
 		// if Background is not null, meaning nothing there show this, JUST CHECKING
 		if (Background != null)
 		{
-			GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), Background);
+			GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), Background);// show texture
 		}
 		
 	}

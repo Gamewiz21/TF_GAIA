@@ -28,8 +28,8 @@ public class LifeCount : MonoBehaviour {
 	
 	}
 	void OnGUI()
-	{	
-		GUI.Label(new Rect(50, 850, 300, 150), "Lives: " + Lives,HUD);// Shows number of Lives as a GUI text
+	{
+        GUI.Label(new Rect(Screen.width / 12, Screen.height - (Screen.height * 0.1f), 300, 150), "Lives: " + Lives, HUD);// Shows number of Lives as a GUI text
 		//Note make height 1000 for max screen
 		
 	}
